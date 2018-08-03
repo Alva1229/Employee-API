@@ -81,7 +81,7 @@ $.ajax({
           year: '2-digit'
       });
         
-        document.getElementById('myModal').innerHTML += `
+        document.getElementById('myModal').innerHTML = `
         <div class='modal-content'>
         <span class='close'>&times;</span>
         <a class='prevBtn'>&lt;</a>
